@@ -142,7 +142,8 @@ def main():
     CrossAttention.use_flash_attention = opt.flash
 
     #
-    txt2img = Txt2Img(checkpoint_path='/input/model/sd-v1-4.ckpt',
+    working_directory = os.getcwd()
+    txt2img = Txt2Img(checkpoint_path=Path(working_directory + '/input/model/sd-v1-4.ckpt'),
                       sampler_name=opt.sampler_name,
                       n_steps=opt.steps)
 
