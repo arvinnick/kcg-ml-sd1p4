@@ -111,7 +111,7 @@ def main():
         "--prompt",
         type=str,
         nargs="?",
-        default="displacement is not always homelessness",
+        default="a demon eating a poor sheep",
         help="the prompt to render"
     )
 
