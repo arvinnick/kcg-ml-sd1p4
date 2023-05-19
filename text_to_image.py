@@ -111,7 +111,7 @@ def main():
         "--prompt",
         type=str,
         nargs="?",
-        default="a demon eating a poor sheep",
+        default="terrible demon, scary, devouring a sheep",
         help="the prompt to render"
     )
 
