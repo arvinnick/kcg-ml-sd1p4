@@ -111,7 +111,7 @@ def main():
         "--prompt",
         type=str,
         nargs="?",
-        default="a painting of a virus monster playing guitar",
+        default="displacement is not always homelessness",
         help="the prompt to render"
     )
 
